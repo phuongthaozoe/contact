@@ -31,7 +31,7 @@ html{
 .avt_and_contact .avt{
     display: flex; 
     top: 0; 
-    transition: top ease 0.5s;
+    transition:0.5s;
 }
 
 .avt_and_contact .avt:hover{
@@ -74,6 +74,7 @@ html{
     padding: 0 10px;
     margin-left: 24px;
     border: 1px solid black;
+    transition: 0.5s;
 }
 
 
@@ -87,5 +88,10 @@ html{
     margin-left: 16px;
     margin-top: 10px;
     border: 1px solid black;
+    transition: 0.5s;
 }
 
+
+.market-places .product:hover{
+    opacity: 0.8;
+}
